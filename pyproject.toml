@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "supabase-pgvector-demo"
+version = "0.1.0"
+description = ""
+authors = ["Martin Xu <15661672+martinxu9@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<4.0"
+reflex = "^0.4.5"
+#reflex = { path = "/Users/martinxu9/code/reflex" }
+supabase = "^2.3.4"
+vecs = "^0.4.2"
+sentence-transformers = "^2.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
