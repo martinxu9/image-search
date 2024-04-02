@@ -7,11 +7,12 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"
-reflex = "^0.4.5"
+reflex = "^0.4.6"
 #reflex = { path = "/Users/martinxu9/code/reflex" }
 supabase = "^2.3.4"
 vecs = "^0.4.2"
 sentence-transformers = "^2.3.1"
+reflex-carousel = "^0.0.1"
 
 
 [build-system]
